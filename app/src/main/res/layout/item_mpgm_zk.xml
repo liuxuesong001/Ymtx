@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/mpgm_item_zkLL"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:padding="@dimen/dp_4"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <TextView
+            android:id="@+id/mpgm_item_zktv"
+            android:layout_width="match_parent"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:textColor="@color/tabSelectedTextColor"
+            android:layout_height="wrap_content" />
+
+    <!--</RelativeLayout>-->
+
+
+
+
+
+</LinearLayout>

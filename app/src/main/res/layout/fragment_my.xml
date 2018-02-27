@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="221.5dp">
+
+
+        <ImageView
+            android:id="@+id/ivBj"
+            android:layout_width="match_parent"
+            android:src="@drawable/my_top_bj"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent" />
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/my_icon"
+            android:layout_width="97dp"
+            android:layout_height="97.5dp"
+            app:civ_border_color="@color/color_3486a1"
+            android:src="@drawable/circle_icon"
+            app:civ_border_width="2dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@+id/my_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="48dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="25.5dp"
+                android:src="@drawable/sys"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="扫一扫"
+                android:textSize="12sp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/my_icon"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="48dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="26.5dp"
+                android:src="@drawable/home_ewm_icon"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="旅行码"
+                android:textSize="12sp"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/qsm_ll"
+            android:layout_width="59.5dp"
+            android:background="@drawable/shape_my_white"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/my_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:layout_height="17dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="去实名"
+                android:textSize="10.605sp"
+                android:textColor="@color/color_7e7e7e"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/qsm_ll"
+            android:layout_width="wrap_content"
+            android:text="尊敬的会员"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/color_f8f8f8"
+            android:layout_height="match_parent">
+
+
+            <include layout="@layout/include_layout_myqb"> </include>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/gray"
+                android:layout_height="1px">
+
+            </View>
+
+
+
+            <include layout="@layout/include_layout_ye"> </include>
+
+
+
+            <include layout="@layout/include_layout_myitem"> </include>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+

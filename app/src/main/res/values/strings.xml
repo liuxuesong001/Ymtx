@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">一码同行</string>
+
+    <string name="text_behavior">com.lypt.project.widget.appbar.TestBehavior</string>
+
+
+    <string name="expand">查看更多</string>
+
+    <string name="collapse">收起</string>
+
+    <string name="more_text">古北水镇位于北京市密云区古北口镇，背靠中国最美、最险的司马台长城，坐拥鸳鸯湖水库，是京郊罕见的山水城结合的旅游度假景区。夜景堪称一绝，目前已成为北京夜游新地标。与河北交界，交通便捷，距首都国际机场和北京市均在1个半小时左右车程，距离密云区和承德市约45分钟车程。景区内建有精美的民国风格的山地四合院建筑43万平方米，总占地面积9平方公里，集观光游览、休闲度假、商务会展、创意文化等旅游业态为一体，是长城脚下独具北方风情的度假式小镇。</string>
+
+    <string name="sys">扫一扫</string>
+
+    <string name="sys_a">扫描二维码购票或导游</string>
+
+    <string name="erweima">二维码</string>
+
+    <string name="menpiao">门票</string>
+
+    <string name="shangcheng">商城</string>
+
+    <string name="lyyh">旅游优惠</string>
+
+    <string name="lyyh_a">超值低价一折起</string>
+
+    <string name="jdyd">酒店预订</string>
+
+    <string name="jdyd_a">酒店旅行精选</string>
+
+    <string name="rmjq">热门景区</string>
+
+    <string name="jxtj">精选推荐</string>
+
+    <string name="jxmp">景点门票</string>
+
+    <string name="jtp">交通票</string>
+
+    <string name="lxm">旅行码</string>
+
+    <string name="lxm_a">出示二维码验票或支付</string>
+
+    <string name="mpgm">门票购买</string>
+
+    <string name="tssp">特色商品</string>
+
+
+</resources>

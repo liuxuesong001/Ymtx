@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/dp_14"
+    android:paddingRight="@dimen/dp_14"
+    android:orientation="horizontal"
+    android:layout_height="40dp">
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_gravity="left|center"
+        android:src="@drawable/myqb_icon"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:text="我的钱包"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/color_343434"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/color_aaaaaa"
+        android:textSize="@dimen/sp_12"
+        android:text="银行卡、会员卡等"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    
+    <ImageView
+        android:layout_width="6dp"
+        android:layout_marginLeft="@dimen/dp_4"
+        android:src="@drawable/back_gray"
+        android:layout_gravity="center"
+        android:layout_height="12dp" />
+
+
+</LinearLayout>

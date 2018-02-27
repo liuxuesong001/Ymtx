@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--tab 字体颜色-->
+    <color name="tabTextColor">#7e7e7e</color>
+    <color name="tabSelectedTextColor">#03c2d9</color>
+
+    <color name="color_666666">#666666</color>
+
+    <color name="color_000000">#000000</color>
+
+    <color name="color_1cb6ca">#1cb6ca</color>
+
+    <color name="color_7e7e7e">#7e7e7e</color>
+
+    <color name="color_e5e5e5">#e5e5e5</color>
+
+    <color name="color_333333">#333333</color>
+
+    <color name="color_7f333333">#7f333333</color>
+
+    <color name="color_343434">#343434</color>
+
+    <color name="color_aaaaaa">#aaaaaa</color>
+
+    <color name="color_f9651c">#f9651c</color>
+
+
+    <color name="color_f7f7f7">#f7f7f7</color>
+
+    <color name="color_e9e9e9">#e9e9e9</color>
+
+    <color name="color_bd72f2">#bd72f2</color>
+
+    <color name="color_2fd8a2">#2dd8a2</color>
+
+    <color name="color_00b7ee">#00b7ee</color>
+
+    <color name="color_707070">#707070</color>
+
+    <color name="black_p50">#7f000000</color>
+
+    <color name="gray_e7e7e7">#e7e7e7</color>
+
+    <color name="b_c_fafafa">#fafafa</color>
+
+    <color name="blue_4285f4">#4285f4</color>
+
+    <color name="black_5a626d">#5a626d</color>
+
+    <color name="comment_divider">#cccccc</color>
+
+    <color name="color_272727">#272727</color>
+
+    <color name="color_f8f8f8">#f8f8f8</color>
+
+    <color name="color_3486a1">#3486a1</color>
+
+    <color name="color_989898">#989898</color>
+
+
+
+
+
+</resources>

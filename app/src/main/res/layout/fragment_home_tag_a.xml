@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:layout_height="58dp">
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/shape_home_tag_a"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/home_lyyh_icon"
+            android:layout_height="28dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="@string/lyyh"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:text="@string/lyyh_a"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/jdyd"
+        android:layout_width="0dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/shape_home_tag_b"
+        android:layout_height="44dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/home_jdyh_icon"
+            android:layout_height="23.5dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="@string/jdyd"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:text="@string/jdyd_a"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

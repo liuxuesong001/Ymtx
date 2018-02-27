@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingLeft="12dp"
+    android:paddingTop="15dp"
+    android:paddingRight="12dp"
+    android:paddingBottom="15dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_a"
+        android:layout_width="wrap_content"
+        android:text="开放时间"
+        android:textColor="@color/color_343434"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_14"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/jqxq_time_name"
+        android:text="古水北镇 :"
+        android:layout_below="@+id/tv_a"
+        android:layout_marginTop="8dp"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/color_343434"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toRightOf="@+id/jqxq_time_name"
+        android:id="@+id/jqxq_time_time"
+        android:text=" 9:00-22:00"
+        android:layout_below="@+id/tv_a"
+        android:layout_marginTop="8dp"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/color_343434"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/jqxq_name_xq"
+        android:text="童玩馆 :"
+        android:layout_below="@+id/jqxq_time_name"
+        android:layout_marginTop="4dp"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/color_343434"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toRightOf="@+id/jqxq_name_xq"
+        android:id="@+id/jqxq_xq_time_time"
+        android:text=" 10:00-17:00(平日);10:00-22:00(周日)"
+        android:layout_below="@+id/jqxq_time_name"
+        android:layout_marginTop="4dp"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/color_343434"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>

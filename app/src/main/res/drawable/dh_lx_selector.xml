@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--按下-->
+    <item android:drawable="@drawable/shape_lx_down" android:state_pressed="true"> </item>
+    <!-- 默认时 -->
+    <item android:drawable="@drawable/shape_lx_up" />
+</selector>

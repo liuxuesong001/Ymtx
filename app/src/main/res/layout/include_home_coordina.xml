@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_jqxq"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <LinearLayout
+                android:id="@+id/home_sousuo_ll"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_height="30dp">
+
+                <!--<ImageButton-->
+                <!--android:id="@+id/sys"-->
+                <!--android:background="@null"-->
+                <!--android:layout_width="15.5dp"-->
+                <!--android:src="@drawable/sys"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_marginLeft="12dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_height="15.5dp" />-->
+
+
+                <!--<include layout="@layout/layout_searchview"> </include>-->
+                <com.lypt.project.widget.editview.SearchViewEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="12dp"
+                    android:id="@+id/editser"
+                    android:layout_height="wrap_content">
+
+                </com.lypt.project.widget.editview.SearchViewEditText>
+
+                <ImageButton
+                    android:id="@+id/xiaoxi"
+                    android:background="@null"
+                    android:src="@drawable/home_sd"
+                    android:layout_width="18dp"
+                    android:layout_gravity="center"
+                    android:layout_height="17.5dp" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nestScrView"
+            android:clipToPadding="false"
+            android:fillViewport="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_f8f8f8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/ll"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                    android:layout_width="match_parent"
+                    android:layout_height="165.5dp">
+
+                    <com.youth.banner.Banner
+                        android:id="@+id/banner"
+                        app:indicator_drawable_unselected="@mipmap/dian_unsea"
+                        app:indicator_drawable_selected="@mipmap/dian_sea"
+                        app:indicator_width="14dp"
+                        app:layout_collapseMode="parallax"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                </RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <!--<include layout="@layout/fragment_home_tag"> </include>-->
+
+                    <!--<include layout="@layout/fragment_home_tag_a"> </include>-->
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:background="@color/white"
+                        android:paddingTop="18dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:id="@+id/sys"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="11dp"
+                            android:layout_gravity="top|center"
+                            android:orientation="vertical"
+                            android:background="@drawable/sys_bj_icon"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="23sp"
+                                android:text="@string/sys"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="@string/sys_a"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:layout_gravity="center"
+                                android:layout_height="wrap_content" />
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:id="@+id/ewm"
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="11dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_gravity="top|center"
+                            android:background="@drawable/sys_lx_icon"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textSize="23sp"
+                                android:text="@string/lxm"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="@string/lxm_a"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:layout_gravity="center"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="@dimen/dp_10"
+                        android:background="@color/white"
+                        android:layout_height="wrap_content">
+
+
+
+                        <LinearLayout
+                            android:id="@+id/mpgm"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="42dp"
+                                android:layout_marginTop="12dp"
+                                android:src="@drawable/home_mpc_icon"
+                                android:layout_height="42dp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="@string/mpgm"
+                                android:layout_marginTop="8dp"
+                                android:textColor="@color/color_666666"
+                                android:layout_height="wrap_content" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tssp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="42dp"
+                                android:layout_marginTop="12dp"
+                                android:src="@drawable/home_tsspc_icon"
+                                android:layout_height="42dp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="@string/tssp"
+                                android:textColor="@color/color_666666"
+                                android:layout_marginTop="8dp"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/lyyh"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="42dp"
+                                android:layout_marginTop="12dp"
+                                android:src="@drawable/home_lyyh_icon"
+                                android:layout_height="42dp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="@string/lyyh"
+                                android:textColor="@color/color_666666"
+                                android:layout_marginTop="8dp"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_height="1px">
+
+
+                    </View>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="left|center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="@dimen/dp_14"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/home_jxtj_icon"
+                        android:scaleType="fitCenter"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/jxtj"
+                        android:typeface="sans"
+                        android:textColor="@color/color_000000"
+                        android:textSize="18.5sp" />
+
+                </LinearLayout>
+
+                <!--<com.lypt.project.widget.gridview.MyGridView-->
+                <!--android:id="@+id/home_gridview"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:numColumns="1"-->
+                <!--android:nestedScrollingEnabled="false"-->
+                <!--android:descendantFocusability="blocksDescendants"-->
+                <!--android:clickable="false"-->
+                <!--&gt;-->
+
+                <!--</com.lypt.project.widget.gridview.MyGridView>-->
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_home"
+                    android:overScrollMode="never"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+
+
+
+
+    <!--<include-->
+
+    <!--layout="@layout/include_home_nestedsview">-->
+
+    <!--</include>-->
+
+
+
+
+
+</LinearLayout>

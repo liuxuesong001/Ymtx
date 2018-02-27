@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="CoreAppTheme">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowBackground">@drawable/splash_background</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+    </style>
+
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+    </style>
+
+
+    <style name="PopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+    </style>
+
+    <style name="ToolbarTitleTextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">@color/md_red_500</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SubtitleCollapsingToolbar"
+        parent="@style/Widget.Design.CollapsingToolbar">
+    </style>
+
+    <style name="CollapsedSubtitleAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ExpandedSubtitleAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="title" >
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="CollapsingToolbarLayoutTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="tablayoutSizeText">
+        <item name="android:textSize">9sp</item>
+    </style>
+
+
+    <style name="subtitle">
+        <item name="android:textColor">@color/md_orange_700</item> <!-- I only change the color -->
+    </style>
+
+
+
+    <style name="DemTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:listDivider">@drawable/jqxq_divider</item>
+    </style>
+
+    <style name="NoSpaceActionBarTheme" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <!--<style name="NOTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <!--<item name="android:windowTranslucentStatus">true</item>-->
+    <!--<item name="android:background">@drawable/splash_background</item>-->
+    <!--</style>-->
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AppThemeTab">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">21dp</item>
+    </style>
+
+</resources>
